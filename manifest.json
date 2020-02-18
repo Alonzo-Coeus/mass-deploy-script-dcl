@@ -1,0 +1,5 @@
+{
+	"modelPath": "models/",
+	"modelFile": "a_%X_%Y.glb",
+	"concurrency": 16
+}
