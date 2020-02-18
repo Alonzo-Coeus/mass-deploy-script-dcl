@@ -1,11 +1,10 @@
 # Mass Deploy Script
 This repo contains a deploy script for large scale deploys of decentraland
-scenes
+scenes.
 ## Basic Usage
 1. Create many 16x16 glb model files and store them in a models directory.
    (ensure they are named with their in world cords)
-2. modify the manifest.json file to match point at your models directory
-   (default is `./models`)
+2. modify the manifest.json file to match
 3. set the modelFile parameter to match your naming convention default is
    `a_%X_%Y.glb`
 4. set your private key as an enviroment variable (DCL_PRIVATE_KEY) on your
